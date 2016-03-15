@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80D8FF"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send to "
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:id="@+id/to"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/to"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="#FFFDE7"
+        android:id="@+id/to_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to_text"
+        android:text="Amount (Rs) "
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:id="@+id/amt"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/amt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFFDE7"
+        android:layout_margin="10dp"
+        android:id="@+id/amt_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amt_text"
+        android:text="Description "
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:id="@+id/desc"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/desc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFFDE7"
+        android:layout_margin="10dp"
+        android:id="@+id/desc_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/desc_text"
+        android:text="Pay"
+        android:id="@+id/pay"
+        android:layout_margin="10dp" />
+
+
+</RelativeLayout>
